@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root {
-    --brand-color: #ffff9e;
-    --brand-color-darker: #de8;
-    --brand-color-darker-darker: #cd7;
+    --brand-color: #FF6BB6;
+    --brand-color-darker: #E85AA6;
+    --brand-color-darker-darker: #D14996;
     --border-color: var(--brand-color-darker);
     --border-color-darker: var(--brand-color-darker-darker);
 
@@ -12,28 +12,28 @@
     --red: #f00;
 
     --background-color: var(--white);
-    --text-color: #222;
+    --text-color: #000;
 
-    --link-color: #54c;
-    --active-link-color: var(--black);
+    --link-color: #FF6BB6;
+    --active-link-color: #D14996;
     --summary-marker-color: var(--border-color);
 
     color-scheme: light;
 }
 
 .dark-mode {
-    --brand-color: #444;
-    --brand-color-darker: #555;
-    --brand-color-darker-darker: #666;
+    --brand-color: #B33D85;
+    --brand-color-darker: #8A2F66;
+    --brand-color-darker-darker: #6B2151;
 
-    --border-color: #444;
-    --border-color-darker: #555;
+    --border-color: #8A2F66;
+    --border-color-darker: #6B2151;
 
     --background-color: #222;
     --text-color: #fff;
 
-    --link-color: #E4BFFF;
-    --active-link-color: #fff;
+    --link-color: #FF6BB6;
+    --active-link-color: #D14996;
 
     --summary-marker-color: #eee;
 
@@ -43,8 +43,8 @@
 body {
     background: var(--background-color);
     color: var(--text-color);
-    font-family:-apple-system,BlinkMacSystemFont,Aptos,"Segoe UI Variable","Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-family:"Johnston";
+    font-size: 20px;
     line-height: 1.5;
     margin: 0;
     accent-color: var(--brand-color-darker);
@@ -281,6 +281,12 @@ h1 {
     font-family: "Charles Wright";
     src:  url("../CharlesWright-Bold.woff2") format("woff2"),
         url("../CharlesWright-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Johnston";
+    src:  url("../Johnston.woff2") format("woff2"),
+        url("../Johnston.woff") format("woff");
 }
 
 .reg {
