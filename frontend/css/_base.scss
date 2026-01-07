@@ -43,9 +43,9 @@
 body {
     background: var(--background-color);
     color: var(--text-color);
-    font-family:"Johnston";
-    font-size: 20px;
-    line-height: 1.5;
+    font-family:"Abadi MT Standard";
+    font-size: 16px;
+    line-height: 1.2;
     margin: 0;
     accent-color: var(--brand-color-darker);
 }
@@ -284,9 +284,9 @@ h1 {
 }
 
 @font-face {
-    font-family: "Johnston";
-    src:  url("../Johnston.woff2") format("woff2"),
-        url("../Johnston.woff") format("woff");
+    font-family: "Abadi MT Standard";
+    src:  url("../Abadi MT Std Regular.woff2") format("woff2"),
+        url("../Abadi MT Std Regular.woff") format("woff");
 }
 
 .reg {
