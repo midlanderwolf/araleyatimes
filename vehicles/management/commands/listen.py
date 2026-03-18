@@ -14,7 +14,7 @@ def get_content(slug):
     #    if vehicle.latest_journey.destination:
     #        content += " to {vehicle.latest_journey.destination}"
 
-    return f"[{content}](https://bustimes.org/vehicles/{slug})"
+    return f"[{content}](https://araleyatimes.org/vehicles/{slug})"
 
 
 class Command(BaseCommand):
@@ -44,7 +44,7 @@ class Command(BaseCommand):
                 response = session.post(
                     settings.NEW_VEHICLE_WEBHOOK_URL,
                     json={
-                        "username": "bot",
+                        "username": "Araleya Times - New Vehicle",
                         "content": get_content(notify.payload),
                     },
                     timeout=10,
